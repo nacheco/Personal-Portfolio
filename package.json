@@ -12,9 +12,6 @@
   ],
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
-  "engines": {
-    "node": ">=18.17.0"
-  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
