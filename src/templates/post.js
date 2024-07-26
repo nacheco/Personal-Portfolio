@@ -54,6 +54,12 @@ const PostTemplate = ({ data, location }) => {
   const { frontmatter, html } = data.markdownRemark;
   const { title, date, tags } = frontmatter;
 
+  const formattedDate = new Date(date).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+
   return (
     <Layout location={location}>
       <Helmet title={title} />
@@ -67,13 +73,7 @@ const PostTemplate = ({ data, location }) => {
         <StyledPostHeader>
           <h1 className="medium-heading">{title}</h1>
           <p className="subtitle">
-            <time>
-              {new Date(date).toLocaleDateString('en-US', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric',
-              })}
-            </time>
+            <time>{formattedDate}</time>
             <span>&nbsp;&mdash;&nbsp;</span>
             {tags &&
               tags.length > 0 &&
@@ -99,8 +99,8 @@ PostTemplate.propTypes = {
 };
 
 export const pageQuery = graphql`
-  query($path: String!) {
-    markdownRemark(frontmatter: { slug: { eq: $path } }) {
+  query ($slug: String!) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       frontmatter {
         title
