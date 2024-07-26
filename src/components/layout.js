@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled, { ThemeProvider } from 'styled-components';
 import { Head, Loader, Nav, Social, Email, Footer } from '@components';
 import { GlobalStyle, theme } from '@styles';
+import { Analytics } from '@vercel/analytics/react';
 
 // https://medium.com/@chrisfitkin/how-to-smooth-scroll-links-in-gatsby-3dc445299558
 if (typeof window !== 'undefined') {
@@ -80,6 +81,8 @@ const Layout = ({ children, location }) => {
           )}
         </ThemeProvider>
       </div>
+
+      <Analytics />
     </>
   );
 };
