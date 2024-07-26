@@ -2,7 +2,7 @@
 date: '1'
 title: 'Luna 🌙 - Full Stack Ecommerce'
 cover: './portfolio-thunm.png'
-github: 'https://github.com/Zeviks/ecom-sanity-nova'
+github: 'https://github.com/nacheco/ecom-sanity-nova'
 external: 'https://ecom-sanity-nova.vercel.app/'
 tech:
   - Next.js

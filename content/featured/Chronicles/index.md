@@ -2,7 +2,7 @@
 date: '2'
 title: 'Chronicles 🌎 - Full Stack Blog'
 cover: './main.png'
-github: 'https://github.com/Zeviks/Chronicles-Personal-Blog'
+github: 'https://github.com/nacheco/Chronicles-Personal-Blog'
 external: 'https://chronicles-personal-blog.vercel.app/'
 tech:
   - Next.js

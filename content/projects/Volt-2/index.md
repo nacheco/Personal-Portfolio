@@ -2,7 +2,7 @@
 date: '4'
 title: ' Volt - Video Chat Application'
 cover: './Volt-Portfolio.png'
-github: 'https://github.com/Zeviks/volt-v2'
+github: 'https://github.com/nacheco/volt-v2'
 external: 'https://frolicking-cupcake-8a0963.netlify.app/'
 tech:
   - UI Example

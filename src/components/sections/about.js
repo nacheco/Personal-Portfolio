@@ -127,14 +127,17 @@ const About = () => {
   }, []);
 
   const skills = [
-    'Express',
-    'CSS / SCSS',
-    'Node.js',
-    'JavaScript (ES6+)',
-    'React',
-    'TypeSctipt',
-    'Tailwind CSS',
-    'Next.js',
+    'Next.js with TypeScript', // Left 1
+    'Cursor', // Right 1
+    'Tailwind CSS', // Left 2
+    'Figma + Relume', // Right 2
+    'GraphQL', // Left 3
+    'Adobe Creative Cloud', // Right 3
+    'Sanity CMS', // Left 4
+    'Python + Flask', // Right 4
+    'Firebase', // Right 4
+    'Chat GPT', // Right 4
+    'and many more...', // Right 4
   ];
 
   return (
@@ -145,12 +148,12 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              My name is Natanael, throughout my life, I have had a passion for technology.
-              Recently, my focus has shifted to the digital realm with a newfound interest in web
-              development. My journey in this field began in 2018 with online courses and I have
-              been actively improving my skills ever since. Not only has development been
-              therapeutic for me, but it has also sharpened my problem-solving abilities and made me
-              a better individual overall.
+              Hello there, my name is Natanael, and technology has been my passion since I was
+              young. Recently, my interest has been centered around product design and web
+              development, and I have been actively honing my skills in these areas through a
+              combination of online courses, freelance work, and professional experience since 2018.
+              I find web development and product design to be therapeutic and rewarding, as they
+              have helped me to become a better problem solver and a more well-rounded individual.
             </p>
             <p>I am currently looking for a company to join as a full-time developer.</p>
 
@@ -166,7 +169,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

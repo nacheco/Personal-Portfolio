@@ -2,7 +2,7 @@
 date: '3'
 title: 'HooBank - Modern Landing Page'
 cover: './Bank.png'
-github: 'https://github.com/Zeviks/BankUI'
+github: 'https://github.com/nacheco/BankUI'
 external: 'https://master--isnt-zeviks-awesome.netlify.app/'
 tech:
   - UI / UX Responsive Design

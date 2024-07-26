@@ -64,8 +64,8 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        A UX Engineer based in Texas. I specialize in designing (and occasionally building)
-        exceptional digital experiences that solve problems, while also looking fantastic.
+        A software engineer with a focus on AI, based in Texas. I excel in crafting exceptional
+        digital experiences that seamlessly blend aesthetics and functionality.
       </p>
     </>
   );

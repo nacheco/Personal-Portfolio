@@ -2,7 +2,7 @@
 date: '4'
 title: 'Traffik - Admin Dashboard'
 cover: './Traffik-Portfolio.png'
-github: 'https://github.com/Zeviks/Traffik-v1'
+github: 'https://github.com/nacheco/Traffik-v1'
 external: 'https://magical-tartufo-bcf44a.netlify.app/'
 tech:
   - React
